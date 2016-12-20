@@ -1,0 +1,21 @@
+{
+    "name": "ananta/apcommon",
+    "description": "A set of commonly used php functions.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anan5a(Ananta)",
+            "email": "ananta.ap69@gmail.com"
+        }
+    ],
+    "require": {
+		"php":">=5.0.0"
+	},
+	"autoload":{
+		"psr-4":
+		{
+			"APCommon\\":"APCommon/src/"
+		}
+	}
+}
